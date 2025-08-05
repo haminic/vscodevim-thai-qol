@@ -1,0 +1,569 @@
+[
+  {
+    "key": "[KeyQ]",
+    "command": "vim.type",
+    "args": { "text": "q" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "shift+[KeyQ]",
+    "command": "vim.type",
+    "args": { "text": "Q" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "[KeyW]",
+    "command": "vim.type",
+    "args": { "text": "w" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "shift+[KeyW]",
+    "command": "vim.type",
+    "args": { "text": "W" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "[KeyE]",
+    "command": "vim.type",
+    "args": { "text": "e" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "shift+[KeyE]",
+    "command": "vim.type",
+    "args": { "text": "E" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "[KeyR]",
+    "command": "vim.type",
+    "args": { "text": "r" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "shift+[KeyR]",
+    "command": "vim.type",
+    "args": { "text": "R" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "[KeyT]",
+    "command": "vim.type",
+    "args": { "text": "t" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyT]",
+    "command": "vim.type",
+    "args": { "text": "T" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyY]",
+    "command": "vim.type",
+    "args": { "text": "y" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyY]",
+    "command": "vim.type",
+    "args": { "text": "y" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyU]",
+    "command": "vim.type",
+    "args": { "text": "u" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyU]",
+    "command": "vim.type",
+    "args": { "text": "U" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyI]",
+    "command": "vim.type",
+    "args": { "text": "i" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyI]",
+    "command": "vim.type",
+    "args": { "text": "I" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyO]",
+    "command": "vim.type",
+    "args": { "text": "o" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyO]",
+    "command": "vim.type",
+    "args": { "text": "O" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyP]",
+    "command": "vim.type",
+    "args": { "text": "p" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyP]",
+    "command": "vim.type",
+    "args": { "text": "P" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[BracketLeft]",
+    "command": "vim.type",
+    "args": { "text": "[" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[BracketLeft]",
+    "command": "vim.type",
+    "args": { "text": "{" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[BracketRight]",
+    "command": "vim.type",
+    "args": { "text": "]" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[BracketRight]",
+    "command": "vim.type",
+    "args": { "text": "}" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Backslash]",
+    "command": "vim.type",
+    "args": { "text": "\\" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Backslash]",
+    "command": "vim.type",
+    "args": { "text": "|" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+
+  {
+    "key": "[KeyA]",
+    "command": "vim.type",
+    "args": { "text": "a" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyA]",
+    "command": "vim.type",
+    "args": { "text": "A" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyS]",
+    "command": "vim.type",
+    "args": { "text": "s" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyS]",
+    "command": "vim.type",
+    "args": { "text": "S" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyD]",
+    "command": "vim.type",
+    "args": { "text": "d" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyD]",
+    "command": "vim.type",
+    "args": { "text": "D" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyF]",
+    "command": "vim.type",
+    "args": { "text": "f" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyF]",
+    "command": "vim.type",
+    "args": { "text": "F" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyG]",
+    "command": "vim.type",
+    "args": { "text": "g" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyG]",
+    "command": "vim.type",
+    "args": { "text": "G" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyH]",
+    "command": "vim.type",
+    "args": { "text": "h" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyH]",
+    "command": "vim.type",
+    "args": { "text": "H" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyJ]",
+    "command": "vim.type",
+    "args": { "text": "j" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyJ]",
+    "command": "vim.type",
+    "args": { "text": "J" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyK]",
+    "command": "vim.type",
+    "args": { "text": "k" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyK]",
+    "command": "vim.type",
+    "args": { "text": "K" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyL]",
+    "command": "vim.type",
+    "args": { "text": "l" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyL]",
+    "command": "vim.type",
+    "args": { "text": "L" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Semicolon]",
+    "command": "vim.type",
+    "args": { "text": ";" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Semicolon]",
+    "command": "vim.type",
+    "args": { "text": ":" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Quote]",
+    "command": "vim.type",
+    "args": { "text": "'" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Quote]",
+    "command": "vim.type",
+    "args": { "text": "\"" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+
+  {
+    "key": "[KeyZ]",
+    "command": "vim.type",
+    "args": { "text": "z" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyZ]",
+    "command": "vim.type",
+    "args": { "text": "Z" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyX]",
+    "command": "vim.type",
+    "args": { "text": "x" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyX]",
+    "command": "vim.type",
+    "args": { "text": "X" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyC]",
+    "command": "vim.type",
+    "args": { "text": "c" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyC]",
+    "command": "vim.type",
+    "args": { "text": "C" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyV]",
+    "command": "vim.type",
+    "args": { "text": "v" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyV]",
+    "command": "vim.type",
+    "args": { "text": "V" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyB]",
+    "command": "vim.type",
+    "args": { "text": "b" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyB]",
+    "command": "vim.type",
+    "args": { "text": "B" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyN]",
+    "command": "vim.type",
+    "args": { "text": "n" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyN]",
+    "command": "vim.type",
+    "args": { "text": "N" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[KeyM]",
+    "command": "vim.type",
+    "args": { "text": "m" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[KeyM]",
+    "command": "vim.type",
+    "args": { "text": "M" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Comma]",
+    "command": "vim.type",
+    "args": { "text": "," },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Comma]",
+    "command": "vim.type",
+    "args": { "text": "<" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Period]",
+    "command": "vim.type",
+    "args": { "text": "." },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Period]",
+    "command": "vim.type",
+    "args": { "text": ">" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Slash]",
+    "command": "vim.type",
+    "args": { "text": "/" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Slash]",
+    "command": "vim.type",
+    "args": { "text": "?" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+
+  {
+    "key": "[Backquote]",
+    "command": "vim.type",
+    "args": { "text": "`" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Backquote]",
+    "command": "vim.type",
+    "args": { "text": "~" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit1]",
+    "command": "vim.type",
+    "args": { "text": "1" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit1]",
+    "command": "vim.type",
+    "args": { "text": "!" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit2]",
+    "command": "vim.type",
+    "args": { "text": "2" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit2]",
+    "command": "vim.type",
+    "args": { "text": "@" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit3]",
+    "command": "vim.type",
+    "args": { "text": "3" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit3]",
+    "command": "vim.type",
+    "args": { "text": "#" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit4]",
+    "command": "vim.type",
+    "args": { "text": "4" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit4]",
+    "command": "vim.type",
+    "args": { "text": "$" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit5]",
+    "command": "vim.type",
+    "args": { "text": "5" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit5]",
+    "command": "vim.type",
+    "args": { "text": "%" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit6]",
+    "command": "vim.type",
+    "args": { "text": "6" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit6]",
+    "command": "vim.type",
+    "args": { "text": "^" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit7]",
+    "command": "vim.type",
+    "args": { "text": "7" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit7]",
+    "command": "vim.type",
+    "args": { "text": "&" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit8]",
+    "command": "vim.type",
+    "args": { "text": "8" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit8]",
+    "command": "vim.type",
+    "args": { "text": "*" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit9]",
+    "command": "vim.type",
+    "args": { "text": "9" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit9]",
+    "command": "vim.type",
+    "args": { "text": "(" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Digit0]",
+    "command": "vim.type",
+    "args": { "text": "0" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Digit0]",
+    "command": "vim.type",
+    "args": { "text": ")" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Minus]",
+    "command": "vim.type",
+    "args": { "text": "-" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Minus]",
+    "command": "vim.type",
+    "args": { "text": "_" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "[Equal]",
+    "command": "vim.type",
+    "args": { "text": "=" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  },
+  {
+    "key": "shift+[Equal]",
+    "command": "vim.type",
+    "args": { "text": "+" },
+    "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
+  }
+]

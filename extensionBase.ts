@@ -334,8 +334,7 @@ export async function activate(context: vscode.ExtensionContext, handleLocal: bo
 
   const compositionState = new CompositionState();
 
-  // Override VSCode commands
-  overrideCommand(context, 'type', async (args: { text: string }) => {
+  const vimType = (args: { text: string }) => {
     taskQueue.enqueueTask(async () => {
       const mh = await getAndUpdateModeHandler();
       if (mh) {
@@ -350,6 +349,11 @@ export async function activate(context: vscode.ExtensionContext, handleLocal: bo
         }
       }
     });
+  };
+
+  // Override VSCode commands
+  overrideCommand(context, 'type', async (args: { text: string }) => {
+    vimType(args);
   });
 
   overrideCommand(
@@ -410,6 +414,8 @@ export async function activate(context: vscode.ExtensionContext, handleLocal: bo
       compositionState.reset();
     });
   });
+
+  registerCommand(context, 'vim.type', vimType);
 
   // Register extension commands
   registerCommand(context, 'vim.showQuickpickCmdLine', async () => {
