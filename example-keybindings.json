@@ -54,7 +54,7 @@
     "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
   },
   {
-    "key": "[KeyT]",
+    "key": "shift+[KeyT]",
     "command": "vim.type",
     "args": { "text": "T" },
     "when": "editorTextFocus && vim.active && !inDebugRepl && (vim.mode == 'Normal' || vim.mode == 'Visual') && !suggestWidgetMultipleSuggestions && !suggestWindowVisible"
