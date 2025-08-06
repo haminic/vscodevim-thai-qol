@@ -14,7 +14,7 @@ import { WordType } from '../../textobject/word';
 import { Clipboard } from '../../util/clipboard';
 import { SpecialKeys } from '../../util/specialKeys';
 import { reportFileInfo, reportSearch } from '../../util/statusBarTextUtils';
-import { getCursorsAfterSync } from '../../util/util';
+import { getCursorsAfterSync, getRightWhile } from '../../util/util';
 import { SearchDirection } from '../../vimscript/pattern';
 import { shouldWrapKey } from '../wrapping';
 import { ExCommandLine, SearchCommandLine } from './../../cmd_line/commandLine';
@@ -1027,7 +1027,8 @@ export class CommandInsertAfterCursor extends BaseCommand {
 
   public override async exec(position: Position, vimState: VimState): Promise<void> {
     await vimState.setCurrentMode(Mode.Insert);
-    vimState.cursorStopPosition = vimState.cursorStartPosition = position.getRight();
+    const line = vimState.document.lineAt(position.line).text;
+    vimState.cursorStopPosition = vimState.cursorStartPosition = getRightWhile(position, line);
   }
 
   public override doesActionApply(vimState: VimState, keysPressed: string[]): boolean {

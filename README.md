@@ -22,8 +22,8 @@ My solution was to expose a new command, `vim.type`, that can be bound to their 
 
 But no, wait, there's something else:
 
-### (TODO) Make Vim's `h` and `l` motions move through grapheme clusters, not code points
+### Made Vim's `h` and `l` motions move through Thai grapheme clusters, not code points
 
-When moving left or right, personally, I think the cursor should move by a whole grapheme "block". Currently, the Vim extension moves by code points, which means if you `l` your way out of "ที่", it stops multiple times inside what looks like a single "column". Fixing this (in the future) would make navigation feel more natural for Thai.
+When moving left or right, personally, I think the cursor should move by a whole grapheme "block" for Thai. Currently, the Vim extension moves by code points, which means if you `l` your way out of "ที่", it stops multiple times inside what looks like a single "column". This fork fixes that. (I also changed how the `a` action is handled to be more consistent with this new `h` and `l` system.)
 
 (Please forgive any misuse of terminology. I really don't know much about this stuff.)
