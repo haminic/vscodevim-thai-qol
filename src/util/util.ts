@@ -63,6 +63,7 @@ const THAI_NON_BASE_CODES: number[] = [
   'ั',
   'ํ',
   '์',
+  'ึ',
   '็', // Ascenders
   'ุ',
   'ู', // Descenders
